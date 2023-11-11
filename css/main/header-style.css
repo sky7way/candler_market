@@ -1,0 +1,9 @@
+header {
+  background-color: #FFF8F3;
+}
+header .container {
+  max-width: 1180px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=header-style.css.map */
