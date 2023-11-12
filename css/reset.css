@@ -38,18 +38,12 @@ footer,header,hgroup,menu,nav,section {
     display:block;
 }
 
-nav ul {
+ul {
     list-style:none;
 }
 
 blockquote, q {
     quotes:none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
 }
 
 a {
@@ -58,6 +52,8 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
+    text-decoration: none;
+    color: inherit;
 }
 
 /* change colours to suit your needs */
