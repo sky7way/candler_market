@@ -3,12 +3,12 @@
     --main-font-color: black;
     --background-color: #FFF8F3;
     --background-color--dark: #7B6152;
+    --background-color--button: #FFBD59;
 }
 
 body {
     color: var(--main-font-color);
     font-family: 'Comfortaa', cursive;
-    /*font-family: 'Yeseva One', serif;*/
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -17,6 +17,16 @@ body {
 
 header {
     background-color: var(--background-color);
+}
+
+button {
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 .container {
@@ -30,8 +40,6 @@ header {
     width: 30px;
     height: 25px;
     background-color: transparent;
-    border: 0;
-    border-radius: 0;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -76,6 +84,52 @@ header {
     position: absolute;
 }
 
+
+
+
+.main {
+    background-color: var(--background-color);
+}
+
+.top {
+    padding: 40px 0 150px;
+}
+
+.top__wrapper {
+    position: relative;
+}
+
+.top__content{
+    width: 370px;
+    padding: 150px 0 250px;
+}
+
+.top__title{
+    font-family: 'Yeseva One', serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.top__text{
+margin-bottom: 48px;
+}
+
+.top__buy {
+    width: 150px;
+    height: 55px;
+    padding: 18px 54px;
+    background-color: var(--background-color--button);
+}
+
+.top__img {
+    position: absolute;
+    top: 0;
+    left: 240px;
+}
+
+
+
 .footer {
     padding: 40px 0 35px 0;
 }
@@ -94,6 +148,8 @@ header {
     display: flex;
     gap: 15px;
 }
+
+/*media*/
 
 @media (max-width: 1000px) {
     .container {
@@ -157,6 +213,7 @@ header {
     .footer {
         padding: 50px 0;
         text-align: center;
+        font-size: 14px;
     }
 
     .footer__wrapper {
