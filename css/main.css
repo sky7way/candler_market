@@ -152,3 +152,19 @@ header {
         display: flex;
     }
 }
+
+@media (max-width: 500px) {
+    .footer {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .footer__wrapper {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footer__menu-list {
+        flex-direction: column;
+    }
+}
