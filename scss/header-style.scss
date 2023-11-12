@@ -1,20 +1,19 @@
 @import "variables";
 
-body {
 
-}
 
 header {
   background-color: $beige;
 
   .container {
-    max-width: $width-container;
-    padding: 0 10px;
-    margin: 0 auto;
+
   }
 
   .header__wrapper {
-
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .logo {
@@ -38,6 +37,15 @@ header {
   }
 
   .phone {
-
+    position: relative;
+    &::before{
+      content: '';
+      background-image: url("../images/phone.svg");
+      width: 20px;
+      height: 20px;
+      left: -23px;
+      top: -3px;
+      position: absolute;
+    }
   }
 }

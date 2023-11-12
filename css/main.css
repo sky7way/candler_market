@@ -1,1 +1,17 @@
+@import "../scss/style.css";
 @import "../scss/header-style.css";
+
+:root {
+    --main-font-color: black;
+}
+
+body {
+    color: var(--main-font-color);
+    font-family: 'Comfortaa', cursive;
+    /*font-family: 'Yeseva One', serif;*/
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+}
+

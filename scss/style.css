@@ -1,0 +1,21 @@
+.container {
+  max-width: 1180px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu__list {
+  display: flex;
+  gap: 20px;
+}
+
+.menu__list-link {
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
