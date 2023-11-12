@@ -1,3 +1,22 @@
-
+.footer {
+  padding: 40px 0 35px 0;
+}
+.footer .footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer__wrapper .footer__contacts {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+}
+.footer .footer__wrapper .footer__contacts .email {
+  margin: 16px 0;
+}
+.footer .footer__wrapper .footer__contacts .footer__social {
+  display: flex;
+  gap: 15px;
+}
 
 /*# sourceMappingURL=footer-style.css.map */

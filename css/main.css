@@ -1,5 +1,6 @@
 @import "../scss/style.css";
 @import "../scss/header-style.css";
+@import "../scss/footer-style.css";
 
 :root {
     --main-font-color: black;
@@ -13,5 +14,9 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 1.2;
+}
+
+ul{
+    list-style: none;
 }
 

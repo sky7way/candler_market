@@ -38,6 +38,7 @@ header {
 
   .phone {
     position: relative;
+
     &::before{
       content: '';
       background-image: url("../images/phone.svg");

@@ -1,0 +1,61 @@
+@import "variables";
+
+.footer {
+  padding: 40px 0 35px 0;
+
+  .container {
+
+  }
+
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+
+    }
+
+    .menu {
+
+      .menu__list {
+
+        .menu__list-item {
+
+          .menu__list-link {
+
+          }
+        }
+      }
+    }
+
+    .footer__contacts {
+      display: flex;
+      flex-direction: column;
+      width: 230px;
+
+      .phone {
+
+      }
+
+      .email {
+        margin: 16px 0;
+      }
+
+      .footer__social {
+        display: flex;
+        gap: 15px;
+
+        .footer__social-item {
+
+          .footer__social-link {
+
+            .footer__social-img {
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
