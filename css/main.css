@@ -60,7 +60,7 @@ button {
 }
 
 .header__wrapper {
-    margin-top: 4px;
+    padding-top: 4px;
 }
 
 .header__wrapper,
@@ -85,10 +85,9 @@ button {
 }
 
 
-
-
 .main {
     background-color: var(--background-color);
+    overflow-x: clip;
 }
 
 .top {
@@ -99,20 +98,20 @@ button {
     position: relative;
 }
 
-.top__content{
+.top__content {
     width: 370px;
     padding: 150px 0 250px;
 }
 
-.top__title{
+.top__title {
     font-family: 'Yeseva One', serif;
     font-size: 30px;
     margin-bottom: 15px;
     letter-spacing: 1px;
 }
 
-.top__text{
-margin-bottom: 48px;
+.top__text {
+    margin-bottom: 48px;
 }
 
 .top__buy {
@@ -127,7 +126,6 @@ margin-bottom: 48px;
     top: 0;
     left: 240px;
 }
-
 
 
 .footer {
@@ -154,6 +152,19 @@ margin-bottom: 48px;
 @media (max-width: 1000px) {
     .container {
         padding: 0 20px;
+    }
+
+    .top__content {
+        width: 333px;
+        padding: 95px 0 70px;
+    }
+
+    .top__imp-l {
+        width: 655px;
+    }
+
+    .top__img{
+        left: 300px;
     }
 }
 
