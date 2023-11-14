@@ -166,6 +166,10 @@ button {
     .top__img{
         left: 300px;
     }
+
+    .top__text {
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -199,6 +203,23 @@ button {
         left: -14px;
         top: -2px;
         background-size: cover;
+    }
+
+    .top__content {
+        width: 230px;
+    }
+    .top__title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .top__text {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .top__img{
+        left: 180px;
     }
 }
 
