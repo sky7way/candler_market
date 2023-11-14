@@ -208,6 +208,7 @@ button {
     .top__content {
         width: 230px;
     }
+
     .top__title {
         font-size: 20px;
         margin-bottom: 20px;
@@ -256,4 +257,37 @@ button {
     .footer__menu-list {
         flex-direction: column;
     }
+
+    .top{
+        padding: 30px 0 50px;
+    }
+
+    .top__imp-l {
+        width: 309px;
+        left: 167px;
+
+    }
+
+    .top__content{
+        width: 180px;
+    }
+
+    .top__title {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .top__text {
+        font-size: 8px;
+        margin-bottom: 15px;
+    }
+
+    .top__buy {
+        font-size: 10px;
+        padding: 14px 41px;
+    }
+}
+
+@media (max-width: 480px){
+
 }
