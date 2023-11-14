@@ -70,6 +70,10 @@ button {
     align-items: center;
 }
 
+.header__menu-list {
+
+}
+
 .phone {
     position: relative;
 }
@@ -229,12 +233,29 @@ button {
         padding: 0 10px;
     }
 
-    .header__menu {
-        order: 1;
+    .header__menu-list {
+        /*display: none;*/
+        width: 153px;
+        background-color: var(--background-color--dark);
+        color: var(--background-color);
+        flex-direction: column;
+        gap: 20px 0;
+        padding: 25px 35px 25px 46px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        font: inherit;
+        transform: translateY(-200%);
+        transition: transform .5s ease;
     }
 
-    .header__menu-list {
-        display: none;
+    .header__menu-list.menu__open {
+        transform: translateY(0);
+    }
+
+    .header__menu {
+        order: 1;
     }
 
     .menu__btn {
@@ -262,7 +283,7 @@ button {
         padding: 30px 0 130px;
     }
 
-    .top__img{
+    .top__img {
         left: 175px;
         top: -20px;
     }
