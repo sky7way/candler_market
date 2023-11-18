@@ -135,7 +135,7 @@ button {
 
 .about {
     background-color: var(--background-light--dark);
-    padding: 50px;
+    padding: 50px 0;
     color: var(--font-color);
 }
 
@@ -240,6 +240,14 @@ button {
     .top__text {
         margin-bottom: 30px;
     }
+
+    .about__content {
+        min-width: 300px;
+    }
+
+    .about__images {
+        padding-left: 20px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -256,6 +264,8 @@ button {
     .footer__social {
         justify-content: center;
     }
+
+
 }
 
 @media (max-width: 770px) {
