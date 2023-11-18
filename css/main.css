@@ -484,4 +484,31 @@ button {
     .top__title {
         /*font-size: 18px;*/
     }
+
+    body {
+        font-size: 8px;
+    }
+
+    .about {
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+
+    .about__content {
+        min-width: 232px;
+    }
+
+    .title {
+        margin-bottom: 10px;
+    }
+
+    .about__images {
+        padding-left: 12px;
+        padding-bottom: 30px;
+        margin-left: 12px;
+    }
+
+    .about__item-img--centre {
+        display: none;
+    }
 }
