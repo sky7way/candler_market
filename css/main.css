@@ -248,6 +248,13 @@ button {
     .about__images {
         padding-left: 20px;
     }
+
+    .about__item-img--centre{
+        width: 348px;
+    }
+    .about__item-img--extreme{
+        width: 212px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -295,12 +302,44 @@ button {
     }
 
     .top__text {
-        font-size: 10px;
         margin-bottom: 20px;
     }
 
     .top__img {
         left: 180px;
+    }
+
+    .about__content {
+        min-width: 200px;
+    }
+    
+    .title {
+        font-size: 15px;
+    }
+
+    .about__title {
+        margin-bottom: 20px;
+    }
+
+    .about__images {
+        margin: 0 0 30px 10px;
+        padding-left: 24px;
+        gap: 0 10px;
+    }
+
+    .about__item-img {
+        margin-bottom: 6px;
+    }
+
+    .about__item-img--centre{
+        width: 190px;
+    }
+    .about__item-img--extreme{
+        width: 120px;
+    }
+
+    .about__item-text {
+        font-size: 6px;
     }
 }
 
